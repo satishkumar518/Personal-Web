@@ -4,10 +4,11 @@ import HeroSection from '../components/HeroSection'
 function Home(){
     return(
         <>
-        <Navbar/>
-        <container>
-        <HeroSection/>
-        </container>
+        
+        <div>
+            <Navbar/>
+            <HeroSection/>
+        </div>
         </>
 
     )
