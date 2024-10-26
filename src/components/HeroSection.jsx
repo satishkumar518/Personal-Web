@@ -1,7 +1,7 @@
 function HeroSection() {
   return (
     <div>
-      <div class="container mx-auto py-8 flex h-screen items-center justify-center">
+      <div class="container mx-auto p-8 flex h-screen items-center justify-center">
         <div class="grid md:grid-cols-2 grid-cols-1 items-center gap-10 md:px-10">
           <div>
             <h1 class="mb-2 text-3xl font-bold text-black">
