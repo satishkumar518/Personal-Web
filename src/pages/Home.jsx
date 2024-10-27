@@ -7,7 +7,10 @@ function Home(){
         
         <div>
             <Navbar/>
+            <div className='container mx-auto p-8'>
             <HeroSection/>
+            </div>
+            
         </div>
         </>
 

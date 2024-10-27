@@ -1,7 +1,9 @@
+
+
 function HeroSection() {
   return (
     <div>
-      <div class="container mx-auto p-8 flex h-screen items-center justify-center">
+      <div class="flex h-screen items-center justify-center">
         <div class="grid md:grid-cols-2 grid-cols-1 items-center gap-10 md:px-10">
           <div>
             <h1 class="mb-2 text-3xl font-bold text-black">
@@ -28,6 +30,7 @@ function HeroSection() {
                   />
                 </svg>
               </button>
+              <a href="./destop.pdf" download='resume'>
               <button class="flex w-full items-center justify-center gap-2 rounded-2xl bg-white p-5 py-3 font-semibold">
                 Resume
                 <svg
@@ -45,6 +48,9 @@ function HeroSection() {
                   />
                 </svg>
               </button>
+
+              </a>
+              
             </div>
           </div>
           <div>
