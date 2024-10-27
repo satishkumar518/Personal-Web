@@ -2,8 +2,8 @@
 
 function HeroSection() {
   return (
-    <div>
-      <div class="flex h-screen items-center justify-center">
+    
+      <div class="flex items-center max-w-4xl bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md text-[#333] font-[sans-serif] container mx-auto p-8" >
         <div class="grid md:grid-cols-2 grid-cols-1 items-center gap-10 md:px-10">
           <div>
             <h1 class="mb-2 text-3xl font-bold text-black">
@@ -62,7 +62,7 @@ function HeroSection() {
           </div>
         </div>
       </div>
-    </div>
+   
   );
 }
 

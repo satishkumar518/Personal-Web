@@ -1,10 +1,13 @@
+import ImageSection from "../components/ImageSection"
 import Navbar from "../components/Navbar"
 
 function Gallery(){
     return(
         <>
         <Navbar/>
-        <h1>gallery</h1>
+        <div className="container mx-auto p-8 mt-20">
+            <ImageSection/>
+        </div>
         </>
         
     )

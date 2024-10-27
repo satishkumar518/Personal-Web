@@ -8,12 +8,12 @@ function Home(){
         
         <div>
             <Navbar/>
-            <div className='container mx-auto p-8' >
+            <div className='container mx-auto mt-20' >
             <HeroSection/>
             </div>
             <div className="container mx-auto p-8 mt-4">
             <ContactForm/>
-        </div>
+            </div>
             
         </div>
         </>
