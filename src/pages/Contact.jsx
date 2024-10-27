@@ -1,10 +1,13 @@
+import ContactForm from "../components/ContactForm"
 import Navbar from "../components/Navbar"
 
 function Contact(){
     return(
         <>
         <Navbar/>
-        <h1>contact</h1>
+        <div className="container mx-auto p-8 mt-20">
+            <ContactForm/>
+        </div>
         </>
         
     )
